@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Filter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Movie Filter</h1>
+
+  <!-- Фильтры -->
+  <div class="filters">
+    <button onclick="filterMovies('action')">Action</button>
+    <button onclick="filterMovies('drama')">Drama</button>
+    <button onclick="filterMovies('comedy')">Comedy</button>
+    <button onclick="filterMovies('all')">All</button>
+  </div>
+
+  <div class="movie-cards">
+    <div class="movie-card" data-genre="action">
+      <img src="icons/1.jpg" alt="The Shawshank Redemption">
+      <p>The Shawshank Redemption</p>
+      <p>Genre: Drama</p>
+    </div>
+    <div class="movie-card" data-genre="action">
+      <img src="icons/2.jpg" alt="The Godfather">
+      <p>The Godfather</p>
+      <p>Genre: Crime, Drama</p>
+    </div>
+    <div class="movie-card" data-genre="drama">
+      <img src="icons/3.jpeg" alt="The Dark Knight">
+      <p>The Dark Knight</p>
+      <p>Genre: Action, Drama</p>
+    </div>
+    <div class="movie-card" data-genre="comedy">
+      <img src="icons/4.jpg" alt="Comedy Movie">
+      <p>Comedy Movie</p>
+      <p>Genre: Comedy</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

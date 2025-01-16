@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 100px); /* 2 колонки */
+  grid-template-rows: repeat(2, 100px); /* 2 строки */
+  gap: 10px;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  display: none;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+.card.flipped img {
+  display: block;
+}

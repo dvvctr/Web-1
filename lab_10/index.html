@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Most Popular Movies</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<header>
+  
+</header>
+<body>
+  <div id="main">
+    <h1>The Most Popular Movies</h1>
+    <div class="pictures">
+      <div id="pc">
+        <button onclick="myFunction('The_Shawshank_Redemption')" id="image_1"></button>
+        <p id="p_1">The Shawshank Redemption</p>
+      </div> 
+    <div id="pc">
+      <button onclick="myFunction('The_Godfather')" id="image_2"></button>
+      <p id="p_2">The Godfather</p>
+    </div>
+    <div id="pc">
+      <button onclick="myFunction('The_Dark_Knight')" id="image_3"></button>
+      <p id="p_3">The Dark Knight</p>
+    </div>
+  </div>
+
+  <div class="another_pages" id="another_pages">
+    <div class="block" id="The_Shawshank_Redemption">
+      <section class="first">
+        <button onclick="window.location.href='./index.html';" id="back_but">Back</button>
+        <h1>The Shawshank Redemption</h1>
+        <div class="inside">
+          <img src="image/shawshank.jpg" alt="The Shawshank Redemption">
+          <div class="characteristics">
+            <table>
+              <tr>
+                <th>Movie</th>
+                <th>The Shawshank Redemption</th>
+              </tr>
+              <tr>
+                <td>Director(s)</td>
+                <td>Frank Darabont</td>
+              </tr>
+              <tr>
+                <td>Genre(s)</td>
+                <td>Drama</td>
+              </tr>
+              <tr>
+                <td>Release date</td>
+                <td>September 23, 1994</td>
+              </tr>
+              <tr>
+                <td>Writer(s)</td>
+                <td>Stephen King (short story)</td>
+              </tr>
+              <tr>
+                <td>Stars</td>
+                <td>Tim Robbins, Morgan Freeman</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="block" id="The_Godfather">
+      <section class="second">
+        <button onclick="window.location.href='./index.html';" id="back_but">Back</button>
+        <h1>The Godfather</h1>
+        <div class="inside">
+          <img src="image/godfather.jpg" alt="The Godfather">
+          <div class="characteristics">
+            <table>
+              <tr>
+                <th>Movie</th>
+                <th>The Godfather</th>
+              </tr>
+              <tr>
+                <td>Director(s)</td>
+                <td>Francis Ford Coppola</td>
+              </tr>
+              <tr>
+                <td>Genre(s)</td>
+                <td>Crime, Drama</td>
+              </tr>
+              <tr>
+                <td>Release date</td>
+                <td>March 24, 1972</td>
+              </tr>
+              <tr>
+                <td>Writer(s)</td>
+                <td>Mario Puzo, Francis Ford Coppola</td>
+              </tr>
+              <tr>
+                <td>Stars</td>
+                <td>Marlon Brando, Al Pacino, James Caan</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="block" id="The_Dark_Knight">
+      <section class="third">
+        <button onclick="window.location.href='./index.html';" id="back_but">Back</button>
+        <h1>The Dark Knight</h1>
+        <div class="inside">
+          <img src="image/dark_knight.jpg" alt="The Dark Knight">
+          <div class="characteristics">
+            <table>
+              <tr>
+                <th>Movie</th>
+                <th>The Dark Knight</th>
+              </tr>
+              <tr>
+                <td>Director(s)</td>
+                <td>Christopher Nolan</td>
+              </tr>
+              <tr>
+                <td>Genre(s)</td>
+                <td>Action, Crime, Drama</td>
+              </tr>
+              <tr>
+                <td>Release date</td>
+                <td>July 18, 2008</td>
+              </tr>
+              <tr>
+                <td>Writer(s)</td>
+                <td>Jonathan Nolan, Christopher Nolan</td>
+              </tr>
+              <tr>
+                <td>Stars</td>
+                <td>Christian Bale, Heath Ledger, Aaron Eckhart</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

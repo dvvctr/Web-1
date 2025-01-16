@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="file-manager">
+    <ul class="folder">
+        <li>
+            <button class="folder-name" onClick="switchFolder(this)">
+              <img src="./icons/test1">Test Folder 1
+            </button>
+            <ul class="files" style="display: none;">
+                <li><img src="./icons/test2">TestFile1.avi</li>
+                <li>
+                    <button class="folder-name" onClick="switchFolder(this)">
+                      <img src="./icons/test1">Test Folder 2
+                    </button>
+                    <ul class="files" style="display: none;">
+                        <li><img src="./icons/test2"> TestFile2.avi</li>
+                    </ul>
+                </li>
+                <li>
+                  <button class="folder-name" onClick="switchFolder(this, true)">
+                    <img src="./icons/test1"> Test New Folder 1
+                  </button>
+                  <ul class="files" style="display: none;">
+                    <li>Folder is empty</li>
+                  </ul>
+              </li>
+          </ul>
+      </li>
+        <li>
+            <button class="folder-name" onClick="switchFolder(this)">
+              <img src="./icons/test1">Test Folder 3
+            </button>
+            <ul class="files" style="display: none;">
+                <li><img src="./icons/test3">TestFile3.docx</li>
+                <li><img src="./icons/test2"> TestFile4.pdf</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<script src="script.js"></script>  
+
+<!-- <script>
+    document.getElementById("1");
+    document.getElementsByClassName("class_name");
+    document.getElementsByTagName("tag_name");
+    document.querySelector("css_selector");
+    document.querySelectorAll("css_selector");
+    let a = "125225252582825385281818184285396295295295295295262841818282818718"
+    
+    
+
+    function test(str){
+        let sum = 0
+        for(let i = 0; i < str.length; i++) {
+        
+            
+            sum=sum+parseInt(str[i]);
+        }
+        console.log(sum)
+    }
+
+    test(a);
+    
+    let b = [1,2,3,4,5,6,7,8,9,10]
+
+    function auh(atr){
+        let suma = 0
+        for(let i = 0; i<atr.length; i++){
+            suma = suma +atr[i];
+        } 
+        console.log(suma)
+
+    };
+    auh(b);
+    
+
+
+
+</script> -->
+</html>

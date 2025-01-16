@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.filters {
+  margin: 20px;
+}
+
+.filters button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.filters button:hover {
+  background-color: #555;
+}
+
+.movie-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-card {
+  width: 200px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: block;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.movie-card p {
+  margin: 10px 0;
+}
